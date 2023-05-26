@@ -3,8 +3,8 @@ import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import { useAuth } from 'services/auth';
 import { useUser } from 'services/user';
 import { useBlog } from 'services/blog';
-import { Comment } from './Comment';
-import { CommentBox } from './CommentBox';
+import { Comment } from 'components/BlogPost/Comment'; 
+import { CommentBox } from 'components/BlogPost/CommentBox'; 
 
 function BlogPost() {
   const navigate = useNavigate();
